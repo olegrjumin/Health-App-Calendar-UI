@@ -195,7 +195,6 @@ var chart = require('./charts'),
 				indexObj.weekIdx = weekCount;
 				indexObj.dayIndexInWeek = idxInWeek;
 			}
-			// console.log('dayIndex: ' + index + ' weekIndex: ' + weekCount + ' indexInWeek: ' + idxInWeek + ' date: ' + item);
 		});
 	}
 
