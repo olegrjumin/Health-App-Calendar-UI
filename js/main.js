@@ -33,7 +33,7 @@ var chart = require('./charts'),
 		canvas = document.getElementById('chart');
 
 	/**
-	 * Initializes calendar.
+	 * Initializes calendar
 	 */
 	function init() {
 		drawMonthView(curMonth);
