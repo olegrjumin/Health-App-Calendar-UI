@@ -1,0 +1,16 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules
+bower_components
+
+# Build files
+build
+templates.js
+
+#webstorm
+.idea
