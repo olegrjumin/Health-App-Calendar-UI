@@ -1,0 +1,25 @@
+{
+	"name": "calendar",
+	"version": "1.0.0",
+	"description": "Calendar UI, original design by Jakub Antalik",
+	"main": "bundle.js",
+	"scripts": {
+		"browserify": "browserify ./js/main.js -o ./bundle.js",
+		"watch": "watchify js/main.js -o ./bundle.js -v"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olegrjumin/Health-App-Calendar-UI"
+	},
+	"author": "Oleg Rjumin and Yerui Yu",
+	"license": "ISC",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"devDependencies": {
+		"browserify": "^13.1.0",
+		"eslint": "^3.3.1",
+		"watchify": "^3.7.0"
+	}
+}
