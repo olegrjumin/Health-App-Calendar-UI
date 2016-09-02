@@ -15,15 +15,14 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /*min-width:1334px;*/
 }
 
 body {
     display: -ms-flexbox;
     display: flex;
     margin: 0;
-    overflow: hidden;
     font-size: 16px;
+    overflow: hidden;
     font-family: 'Montserrat','Helvetica','Proxima Nova', sans-serif;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
@@ -86,17 +85,20 @@ a:hover {
 
 .container {
     padding: 1rem 1.625rem;
+/*    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;*/
 }
 
 .rm-padding {
     padding-top: 0;
 }
 
-
 /* Menu section */
 
 .header-nav {
-    width: 7rem;
+    width: 6rem;
     min-width:4rem;
     height: 100vh;
     background: linear-gradient(#2E92E8, #2FBBD2);
@@ -174,7 +176,7 @@ a:hover {
 .calendar {
     position: relative;
     max-width: 30em;
-    min-height: 13em;
+    min-height: 13rem;
 }
 
 .weekdays {
@@ -328,7 +330,7 @@ a:hover {
     display: flex;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    padding-top: 1em;
+    padding-top: 1rem;
     color: #D4EAFF;
 }
 
@@ -342,6 +344,7 @@ a:hover {
     font-weight: normal;
     line-height: 1;
 }
+
 
 /* Circles before each health-item */
 
@@ -611,7 +614,6 @@ a:hover {
 .cal-lg-ls {
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
     height: 100vh;
     -ms-flex-align: stretch;
     align-items: stretch;
