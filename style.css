@@ -1,4 +1,4 @@
-*,
+*not(input),
 *:before,
 *:after {
     box-sizing: border-box;
@@ -846,19 +846,17 @@ li.cal-day-data .data-line {
 
 .chart-wrapper {
     position: absolute;
-    z-index: 1, ;
+    z-index: 1;
     bottom: 0;
     width: 700px;
-    height: 400px;
+    height: 300px;
 }
 
 #chart {
-    display: block;
-    z-index: 1;
     position: absolute;
     bottom: 0;
+    height:250px;
 }
-
 
 /* Loader */
 
