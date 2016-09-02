@@ -15,7 +15,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    min-width:1334px;
+    /*min-width:1334px;*/
 }
 
 body {
@@ -97,6 +97,7 @@ a:hover {
 
 .header-nav {
     width: 7rem;
+    min-width:4rem;
     height: 100vh;
     background: linear-gradient(#2E92E8, #2FBBD2);
 }
@@ -116,7 +117,7 @@ a:hover {
     fill: #C6E3F5;
 }
 .menu-icon.white-select svg {
-   fill: #fff; 
+   fill: #fff;
 }
 
 .hr-item-selected {
@@ -220,7 +221,7 @@ a:hover {
 .week__current {
     position: relative;
     z-index: 1;
-   
+
 }
 
 @keyframes switch {
@@ -573,7 +574,7 @@ a:hover {
 }
 
 ::-webkit-search-cancel-button {
-    -webkit-appearance: none;     
+    -webkit-appearance: none;
 }
 
 .cal-search.active-search #search-field {
