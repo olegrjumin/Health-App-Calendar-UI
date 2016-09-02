@@ -33,7 +33,7 @@ var chart = require('./charts'),
 		canvas = document.getElementById('chart');
 
 	/**
-	 * Initializes calendar.
+	 * Initializes calendar
 	 */
 	function init() {
 		drawMonthView(curMonth);
@@ -103,7 +103,7 @@ var chart = require('./charts'),
 	}
 
 	/**
-	 * Draws weekView, accepts index of week to draw.
+	 * Draws week view, accepts index of week to draw.
 	 */
 	function drawWeekView(idx) {
 		var weekDay,
@@ -195,7 +195,6 @@ var chart = require('./charts'),
 				indexObj.weekIdx = weekCount;
 				indexObj.dayIndexInWeek = idxInWeek;
 			}
-			// console.log('dayIndex: ' + index + ' weekIndex: ' + weekCount + ' indexInWeek: ' + idxInWeek + ' date: ' + item);
 		});
 	}
 
