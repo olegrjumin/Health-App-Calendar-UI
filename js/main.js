@@ -103,7 +103,7 @@ var chart = require('./charts'),
 	}
 
 	/**
-	 * Draws weekView, accepts index of week to draw.
+	 * Draws week view, accepts index of week to draw.
 	 */
 	function drawWeekView(idx) {
 		var weekDay,
